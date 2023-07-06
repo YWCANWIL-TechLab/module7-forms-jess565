@@ -85,6 +85,95 @@
         </section>
         <section id="answers" class="container">
 
+                <form1>
+                    <label for="fname">first name:</label><br>
+                    <input type="text" id="fname" name="fname" value="John"><br>
+
+                    <label for="lname">last name:</label><br>
+                    <input type="text" id="lname"  name="lname" value="Doe"><br>
+                </form1>
+                <hr>
+                <form2>
+                    <label for="fname">first name</label><br> 
+                   <input type="text" id="fname" name="fname" value="John"><br>
+
+                   
+                   <label for="mname">middle name</label><br>
+                   <input type="text" id="middle name" name="mname" value="" disabled><br>
+
+                   <label for="lname">last name</label><br>
+                   <input type="lname"  id="lname" name="lname" value="Doe"><br>
+                </form2>
+                <hr>
+                <form3>
+                    <label for="username">username:</label><br>
+                    <input type="text" id="username" name="username" value="username"><br>
+
+                    <label for="password">password</label><br>
+                    <input type="text" id="password" name="password" value="password" readonly><br>
+                </form3>
+                <hr>
+
+                <form4>
+                    <p>Please leave a review!</p>
+                <textarea title="review" cols="50"></textarea><br>
+                <input type="reset" value="Reset">
+                </form4>
+
+                <form5>
+                    <p>Leave another review!</p>
+                <textarea title="review #2" cols="50" maxlength="100"></textarea><br>
+                </form5>
+
+
+                <form6>
+                    <label for="date-range">
+                        Please select a date from the US Covid-19 Public Health Emergency (Jan 31, 2020 - May 11, 2022).
+                    </label>
+                    <br>
+                    <input type="date" id="date-range" name="date-range" min="2020-1-31" max="2022-11-2022"><br>
+                
+                </form6>
+
+                <form7> <label for="files">Please upload all the files of this website:</label><br>
+                    <input type="file" id="files" name="files" multiple>
+                </form7>
+
+                
+                <form8><label for="search">Search Bar:</label>
+                    <input type="search" id="search" name="search" placeholder="What's on your mind?"><br>
+    
+                    <input type="submit" value="Search!">
+                </form8>
+
+
+                <form9> <label for="favnum">What is your favorite number?</label><br>
+                    <input type="number" id="favnum" name="favnum" autofocus>
+                </form9>
+
+
+                <form10><label for="numrange">Select a number between 0 and 100:</label><br>
+                    <input type="range" id="numrange" name="numrange" min="0" max="100" step="2">
+                </form10>
+
+
+                <form11>
+                    <label for="f-name">First Name:</label><br>
+                    <input type="text" id="f-name" name="f-name" placeholder="What's your first name?"><br><br>
+                    <label for="l-name">Last Name:</label><br>
+                    <input type="text" id="l-name" name="l-name" placeholder="What's your last name?"><br><br>
+                    <input type="image" src="../logo_ywca_32by32.png" alt="YWCA Submit Button">   
+                </form11>
+
+                <form12>
+                    <label for="favfruit">Enter your favorite fruit:</label><br>
+                    <input type="list" id="favfruit" name="fruits" list="fruits">
+                    <datalist id="fruits">
+                        <option value="apple">Apricot</option>
+                        <option value="currant">Currant</option>
+                        <option value="dragonfruit">Dragonfruit</option>
+                    </datalist>  
+                </form12>
         </section>
         <script src="" async defer></script>
     </body>
